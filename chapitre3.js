@@ -16,14 +16,14 @@ nested_object = {
 };
 
 
-// Parcours du tableau avec la boucle for (liste tous les éléments, y compris les prototypes)
+// Parcours du tableau avec une boucle forin (liste tous les éléments, y compris les prototypes)
 
 var result;
 for (result in nested_object) {
     window.document.writeln(nested_object[result]);
 }
 
-// Parcours du tableau avec la boucle if et la propriété hasOwnProperty
+// Parcours du tableau avec une boucle for et la propriété hasOwnProperty
 var i;
 var elements = ["prenom", "nom", "age"];
 
